@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./_img/foguete.png" type="image/x-icon">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles/css/css.index.css">
+    <title>Rumo a Marte | OneBitX</title>
+</head>
+<body class="background">
+    <div class="container pt-5">
+        <img src="./_img/logoOneBitDark.png" alt="Logo OneBitCode" id="logoOBC">
+        <form class="index-form">
+            <!--Pergunta 1-->
+            <div>
+                <div class="form-text">1 - Qual o seu nome?</div>
+                <div class="input-group d-block">
+                    <div class="input-group d-flex name-div">
+                        <span class="input-group-text" id="spanFirstName" style="height: 100%;">Primeiro nome:</span>
+                        <input type="text" class="form-control" id="nameInput" placeholder="Insira seu nome" required>
+                    </div>
+                    <div class="input-group d-flex name-div">
+                        <span class="input-group-text" id="spanLastName" style="height: 100%;">Sobrenome:</span>
+                        <input type="text" class="form-control" placeholder="Insira seu sobrenome" required>
+                    </div>
+                </div>
+            </div>
+            <!--Pergunta 2-->
+            <div class="form-text">2 - Qual o seu gênero?</div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Homem
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Mulher
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                <label class="form-check-label" for="flexRadioDefault3">
+                  Prefiro não informar
+                </label>
+            </div>
+            <!--Pergunta 3-->
+            <div class="form-text">3 - Marque os treinamentos que você fez:</div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault1">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Treinamento básico de astronauta</label>
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault2">
+                <label class="form-check-label" for="flexSwitchCheckChecked">Treinamento físico básico</label>
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault3">
+                <label class="form-check-label" for="flexSwitchCheckDisabled">Treinamento avançado de astronauta</label>
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault4">
+                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Treinamento físico intenso</label>
+            </div>
+            <!--Pergunta 4-->
+            <div class="form-text">4 - Quais você acha que são suas qualidades?</div>
+            <div class="input-group d-flex">
+                <div class="form-check main-qualities-div">
+                    <input class="form-check-input" type="checkbox" value="option1" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Proativo
+                    </label>
+                </div>
+                <div class="form-check main-qualities-div">
+                    <input class="form-check-input" type="checkbox" value="option2" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                      Resistente
+                    </label>
+                </div>
+                <div class="form-check main-qualities-div">
+                    <input class="form-check-input" type="checkbox" value="option3" id="defaultCheck3">
+                    <label class="form-check-label" for="defaultCheck3">
+                      Não vomito fácil
+                    </label>
+                </div>
+                <div class="form-check main-qualities-div">
+                    <input class="form-check-input" type="checkbox" value="option4" id="defaultCheck4">
+                    <label class="form-check-label" for="defaultCheck4">
+                      Não temo marciano
+                    </label>
+                </div>
+                <div class="form-check main-qualities-div">
+                    <input class="form-check-input" type="checkbox" value="option5" id="defaultCheck5">
+                    <label class="form-check-label" for="defaultCheck5">
+                      Já vi todos os Star Wars
+                    </label>
+                </div>
+            </div>
+            <!--Botão-->
+            <button type="button" class="btn btn-outline-danger">Enviar</button>
+        </form>
+    </div>
+    <footer class="footer">
+        Made with
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="#f64348" stroke="#f64348" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+        </svg>
+        by
+        <a href="https://github.com/BernardoCerqueira" target="_blank">@BernardoCerqueira</a>
+    </footer>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

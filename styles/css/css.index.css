@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: white;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #ff0043;
+}
+
+.background {
+  background-image: url("../../_img/backgroundLp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: fit-content;
+  text-align: center;
+}
+
+#logoOBC {
+  width: 200px;
+  padding-bottom: 20px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.index-form {
+  display: block;
+  margin: auto;
+  width: 500px;
+  padding: 10px 30px;
+  background-color: rgba(19, 18, 18, 0.9450980392);
+  border-radius: 10px;
+  text-align: left;
+}
+
+.form-text {
+  color: white;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.name-div {
+  margin-top: 10px;
+}
+
+.main-qualities-div:not(:nth-last-child(1)) {
+  margin-right: 10px;
+}
+
+.btn {
+  text-align: center;
+  display: block;
+  margin: 30px auto 10px auto;
+}
+
+.footer {
+  padding: 30px 0;
+  text-align: center;
+}
+
+@media (min-width: 2100px) {
+  body {
+    font-size: 22px;
+  }
+  .form-text {
+    font-size: 22px;
+  }
+}
+@media (max-width: 526px) {
+  .index-form {
+    width: 95vw;
+  }
+  .background {
+    background-repeat: repeat;
+  }
+}
+@media (max-width: 375px) {
+  #spanFirstName {
+    display: none;
+  }
+  #spanLastName {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=css.index.css.map */
